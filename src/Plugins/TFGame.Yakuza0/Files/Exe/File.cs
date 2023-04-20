@@ -19,6 +19,9 @@ namespace TFGame.Yakuza0.Files.Exe
             new Tuple<long, long>(0xDCA2D8, 0xDCD6B0),
             new Tuple<long, long>(0xDD0508, 0xDD4200),
             new Tuple<long, long>(0xE898D8, 0xEA4D40),
+            new Tuple<long, long>(0xD69000, 0xD69000),
+            new Tuple<long, long>(0xDC8E78, 0xDC8E78),
+            new Tuple<long, long>(0xDC8E00, 0xDC8E08),
         };
 
         protected override List<ExePatch> Patches => new List<ExePatch>()
